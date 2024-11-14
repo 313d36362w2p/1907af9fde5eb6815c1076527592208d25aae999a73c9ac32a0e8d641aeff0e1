@@ -1,0 +1,13 @@
+[package]
+name = "plugins"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib", "rlib"]
+
+[dependencies]
+utilities = { path = "../utilities" }
+
+serde = { version = "*", features = ["std", "serde_derive"] }
+serde_json = "*"

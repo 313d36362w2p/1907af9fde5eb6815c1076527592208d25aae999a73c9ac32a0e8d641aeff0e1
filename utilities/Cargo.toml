@@ -1,0 +1,17 @@
+[package]
+name = "utilities"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib", "rlib"]
+
+[dependencies]
+serde = { version = "*", features = ["std", "serde_derive"] }
+orion = { version = "*" }
+tfhe = { version = "*", features = [
+    "boolean",
+    "shortint",
+    "integer",
+    "aarch64-unix",
+] }
