@@ -8,3 +8,4 @@ plugins = { path = "../plugins" }
 utilities = { path = "../utilities" }
 
 tokio = { version = "*", features = ["full"] }
+lazy_static = { version = "*" }

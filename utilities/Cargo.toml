@@ -9,9 +9,5 @@ crate-type = ["dylib", "rlib"]
 [dependencies]
 serde = { version = "*", features = ["std", "serde_derive"] }
 orion = { version = "*" }
-tfhe = { version = "*", features = [
-    "boolean",
-    "shortint",
-    "integer",
-    "aarch64-unix",
-] }
+clap = { version = "*" }
+regex = { version = "*" }

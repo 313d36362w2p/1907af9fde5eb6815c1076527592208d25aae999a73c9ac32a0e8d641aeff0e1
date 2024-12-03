@@ -6,3 +6,12 @@ edition = "2021"
 [dependencies]
 plugins = { path = "../plugins" }
 utilities = { path = "../utilities" }
+
+bincode = { version = "*" }
+tokio = { version = "*", features = ["full"] }
+clap = { version = "*", features = ["cargo", "derive"] }
+serde = { version = "*", features = ["derive"] }
+regex = "*"
+shlex = "*"
+rustyline = "*"
+goldberg = "*"
