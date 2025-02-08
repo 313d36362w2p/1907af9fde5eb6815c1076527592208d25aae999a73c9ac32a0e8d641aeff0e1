@@ -1,9 +1,4 @@
 [workspace]
-members = [
-    "plugins",
-    "server",
-    "cli",
-    "utilities",
-    "agent",
-]
+resolver = "2"
 
+members = ["plugins", "server", "cli", "utilities", "agent"]
